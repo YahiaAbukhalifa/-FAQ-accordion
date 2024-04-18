@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap"
+    />
+    <title>FAQ accordion</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="faq-box">
+        <div class="faq-title">
+          <img src="./assets/images/icon-star.svg" alt="Star Icon" />
+          <h1>FAQs</h1>
+        </div>
+        <div class="faq-content">
+          <div class="faq-item">
+            <div class="faq-question">
+              <p>Who is Yahia Mohammed</p>
+              <div>
+                <img src="./assets/images/icon-plus.svg" alt="Show answer icon" class="show" id="first_show" onclick="showAsnwer('first','first_icon','first_show')"/>
+                <img
+                  src="./assets/images/icon-minus.svg"
+                  alt="Hide answer icon"
+                  class="none" id="first_icon"
+                  onclick="hideAnswer('first','first_icon','first_show')"
+                />
+            </div>
+            </div>
+            <div class="faq-answer none " id="first">
+              <p>Yahia Mohammed is a frontend web developer by technologys html , css , js , bootstrap , jquery , react js .
+                I have experince in web preformance optimization & search engine optimization (SEO).
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <p>Waht is My acheivments ?</p>
+              <div>
+                <img src="./assets/images/icon-plus.svg" alt="Show answer icon" class="show" id="second_show" onclick="showAsnwer('second','second_icon','second_show')"/>
+                <img
+                  src="./assets/images/icon-minus.svg"
+                  alt="Hide answer icon"
+                  class="none" id="second_icon"
+                  onclick="hideAnswer('second','second_icon','second_show')"
+                />
+              </div>
+            </div>
+            <div class="faq-answer none" id="second">
+              <p>
+                  I am three times in row Egypt's BASEF fair in SOFT category and got third place in the category once !
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <p>What is my communication links?</p>
+              <div>
+                <img src="./assets/images/icon-plus.svg" alt="Show answer icon" class="show" id="third_show" onclick="showAsnwer('third','third_icon','third_show')"/>
+                <img
+                  src="./assets/images/icon-minus.svg"
+                  alt="Hide answer icon"
+                  class="none"
+                  id="third_icon"
+                  onclick="hideAnswer('third','third_icon','third_show')"
+                />
+              </div>
+            </div>
+            <div class="faq-answer none" id="third">
+              <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis neque expedita mollitia ullam rem voluptatibus maxime, sequi nulla quod, iusto vero repudiandae quo eveniet itaque, nostrum voluptas. Dolore, tenetur.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <p>What is my latest projects ?</p>
+              <div>
+                <img src="./assets/images/icon-plus.svg" alt="Show answer icon" class="show" id="fourth_show" onclick="showAsnwer('fourth','fourth_icon','fourth_show')"/>
+                <img
+                  src="./assets/images/icon-minus.svg"
+                  alt="Hide answer icon"
+                  class="none"
+                  id="fourth_icon"
+                  onclick="hideAnswer('fourth','fourth_icon','fourth_show')"
+                />
+              </div>
+            </div>
+            <div class="faq-answer none" id="fourth">
+              <p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas accusantium excepturi ipsa recusandae consequatur, quia blanditiis rem. Aliquam deleniti cum tempore officia. Perferendis quo assumenda vel praesentium aspernatur laborum ratione?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Yahia Abukhalifa</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
